@@ -9,16 +9,18 @@ import Dashboard from "./pages/Dashboard/Dashboard";
 import Profile from "./pages/Dashboard/Profile";
 import Certificates from "./pages/Dashboard/Certificates";
 import Settings from "./pages/Dashboard/Settings";
+import Resume from "./Pages/Resume";
 function App() {
   return (
     <div className="bg-slate-950 min-h-screen">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/"element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume/>} />
         {/* Nested Routes */}
         <Route
           path="/dashboard"
