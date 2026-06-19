@@ -9,7 +9,7 @@ import Dashboard from "./pages/Dashboard/Dashboard";
 import Profile from "./pages/Dashboard/Profile";
 import Certificates from "./pages/Dashboard/Certificates";
 import Settings from "./pages/Dashboard/Settings";
-import Resume from "./Pages/Resume";
+import Resume from "./pages/Resume";
 function App() {
   return (
     <div className="bg-slate-950 min-h-screen">
